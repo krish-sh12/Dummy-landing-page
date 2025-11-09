@@ -14,6 +14,18 @@ body {
   margin: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 22px;
+}
+
 .top {
   min-height: 550px;
   border: 2px solid black;
@@ -37,4 +49,12 @@ body {
 .footer {
   min-height: 75px;
   border: 2px solid black;
+}
+
+.header{
+    min-height: 68px;
+    padding: 0 220px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
