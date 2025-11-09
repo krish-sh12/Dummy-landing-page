@@ -14,16 +14,16 @@ body {
   margin: 0;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 22px;
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 22px;
 }
 
 .top {
@@ -32,34 +32,34 @@ ul{
   flex-direction: column;
 }
 
-.header{
-    min-height: 68px;
-    padding: 0 220px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.header {
+  min-height: 68px;
+  padding: 0 220px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.hero{
-    padding: 0 220px;
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.hero {
+  padding: 0 220px;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.text{
-    max-width: 500px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    border: 2px solid burlywood;
+.text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 2px solid burlywood;
 }
 
-.img{
-    min-width: 550px;
-    min-height: 250px;
-    border: 2px solid gray;
+.img {
+  min-width: 550px;
+  min-height: 250px;
+  border: 2px solid gray;
 }
 
 .second {
@@ -68,25 +68,24 @@ ul{
   padding: 50px 0px;
 }
 
-.info{
-    margin-bottom: 50px;
+.info {
+  margin-bottom: 50px;
 }
 
-.ex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+.ex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
 }
 
-.refimg{
-    max-width: 200px;
-    border: 2px solid burlywood;
+.refimg {
+  max-width: 200px;
+  border: 2px solid burlywood;
 }
 
 .third {
   min-height: 500px;
-  border: 2px solid black;
   padding: 0 320px;
   display: flex;
   flex-direction: column;
@@ -94,17 +93,28 @@ ul{
   justify-content: center;
 }
 
-.qoute{
-    border: 2px solid burlywood;
+.qoute {
+  border: 2px solid burlywood;
 }
 
-.qoute.name{
-    align-self: flex-end;
+.qoute.name {
+  align-self: flex-end;
 }
 
 .bottom {
   min-height: 450px;
-  border: 2px solid black;
+  padding: 0 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action {
+  flex: 1;
+  display: flex;
+  border: 2px solid burlywood;
+  padding: 110px;
+  justify-content: space-between;
 }
 
 .footer {
