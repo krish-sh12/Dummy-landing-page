@@ -32,26 +32,6 @@ ul{
   flex-direction: column;
 }
 
-.second {
-  min-height: 550px;
-  border: 2px solid black;
-}
-
-.third {
-  min-height: 500px;
-  border: 2px solid black;
-}
-
-.bottom {
-  min-height: 450px;
-  border: 2px solid black;
-}
-
-.footer {
-  min-height: 75px;
-  border: 2px solid black;
-}
-
 .header{
     min-height: 68px;
     padding: 0 220px;
@@ -80,4 +60,41 @@ ul{
     min-width: 550px;
     min-height: 250px;
     border: 2px solid gray;
+}
+
+.second {
+  min-height: 550px;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.info{
+    margin-bottom: 50px;
+}
+
+.ex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.refimg{
+    max-width: 200px;
+    border: 2px solid burlywood;
+}
+
+.third {
+  min-height: 500px;
+  border: 2px solid black;
+}
+
+.bottom {
+  min-height: 450px;
+  border: 2px solid black;
+}
+
+.footer {
+  min-height: 75px;
+  border: 2px solid black;
 }
