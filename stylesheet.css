@@ -95,6 +95,7 @@ ul {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 10px;
 }
 
 .qoute {
@@ -106,6 +107,8 @@ ul {
 
 .name {
   align-self: flex-end;
+  font-size: 28px;
+  font-weight: 800;
 }
 
 .bottom {
@@ -116,12 +119,14 @@ ul {
   align-items: center;
 }
 
-.action {
-  flex: 1;
-  display: flex;
-  border: 2px solid burlywood;
-  padding: 110px;
-  justify-content: space-between;
+.action, button{
+    background-color: #3882f6;
+    padding: 10px;
+    width: 130px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #f9faf8;
 }
 
 .footer {
@@ -129,6 +134,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #e5e7eb;
 }
 
 .top, .footer{
@@ -142,9 +148,10 @@ ul {
     color: #f9faf8;
 }
 
-.subtxt, a{
+.subtxt, a, .actionsub{
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 400;
 }
 
 .logo{
@@ -153,6 +160,18 @@ ul {
     font-weight: 800;
 }
 
-.action, button{
-    background-color: #3882f6;
+#actionbt{
+    border: 3px solid white;
+}
+
+.actionhd{
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.action {
+  flex: 1;
+  display: flex;
+  padding: 60px 110px;
+  justify-content: space-between;
 }
