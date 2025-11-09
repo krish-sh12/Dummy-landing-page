@@ -12,6 +12,7 @@ body {
   display: flex;
   flex-direction: column;
   margin: 0;
+  font-family: 'Roboto' , sans-serif;
 }
 
 a {
@@ -53,7 +54,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  border: 2px solid burlywood;
 }
 
 .img {
@@ -70,6 +70,9 @@ ul {
 
 .info {
   margin-bottom: 50px;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 .ex {
@@ -87,6 +90,7 @@ ul {
 .third {
   min-height: 500px;
   padding: 0 320px;
+  background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,10 +98,13 @@ ul {
 }
 
 .qoute {
-  border: 2px solid burlywood;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  font-style: italic;
 }
 
-.qoute.name {
+.name {
   align-self: flex-end;
 }
 
@@ -122,4 +129,30 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.top, .footer{
+    background-color: #1f2937;
+}
+
+
+.maintxt{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.subtxt, a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.action, button{
+    background-color: #3882f6;
 }
