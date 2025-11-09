@@ -28,7 +28,8 @@ ul{
 
 .top {
   min-height: 550px;
-  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
 }
 
 .second {
@@ -57,4 +58,26 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.hero{
+    padding: 0 220px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border: 2px solid burlywood;
+}
+
+.img{
+    min-width: 550px;
+    min-height: 250px;
+    border: 2px solid gray;
 }
