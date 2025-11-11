@@ -1,5 +1,5 @@
 # Dummy-landing-page
-Plain styled dummy landing page site. Practicing my CSS skills. Yet to implement media query responsiveness. 
+Plain styled dummy landing page site made for Practicing CSS and Flexbox skills. Yet to implement media query responsiveness. 
 
 ## Links
 - [Try Landing Page here!](https://krish-sh12.github.io/Dummy-landing-page/)
